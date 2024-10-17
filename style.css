@@ -1,0 +1,43 @@
+/* General styling for centering and aesthetics */
+body {
+  background: linear-gradient(135deg, #a2c4f0, #f9f9f9);
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* Grid Layout */
+.grid-3x3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 400px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  gap: 10px;
+}
+
+/* Grid cells */
+.cell {
+  background-color: white;
+  border-radius: 8px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.cell:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive message styling */
+.alert {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.25rem;
+}
