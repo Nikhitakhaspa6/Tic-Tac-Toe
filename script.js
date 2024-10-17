@@ -41,8 +41,8 @@ function handleCellClick(event) {
 
   board[index] = currentPlayer;
   cell.innerHTML = currentPlayer === 'X' 
-    ? `<i class="bi bi-x-circle-fill text-danger"></i>` 
-    : `<i class="bi bi-record-circle text-primary"></i>`;
+    ? `<i class="bi bi-x-lg text-danger icon-x"></i>` 
+    : `<i class="bi bi-circle text-primary icon-o"></i>`;
 
   if (checkWinner()) {
     showMessage(`${currentPlayer} wins! 🎉`);
