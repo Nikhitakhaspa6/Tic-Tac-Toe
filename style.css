@@ -41,3 +41,27 @@ h1 {
   text-align: center;
   font-size: 1.25rem;
 }
+
+/* Styling for the X and O icons */
+.icon-x, .icon-o {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/* Bold effect for O */
+.icon-o {
+  text-shadow: 
+    1px 0 currentColor, 
+    -1px 0 currentColor, 
+    0 1px currentColor, 
+    0 -1px currentColor;
+}
+
+/* Optional: Slightly thicken the X */
+.icon-x {
+  text-shadow: 
+    0.5px 0 currentColor, 
+    -0.5px 0 currentColor, 
+    0 0.5px currentColor, 
+    0 -0.5px currentColor;
+}
